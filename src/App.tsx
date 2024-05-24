@@ -1,14 +1,13 @@
-import { Count } from './components/Count';
+import React from 'react';
 import './App.scss';
-import { BrowserRouter } from 'react-router-dom';
+import { Dropdown } from './components';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div style={{ height: '60px', width: '60px' }}>
-        <Count globalData={{}} />
-      </div>
-    </BrowserRouter>
+    <div>
+      <h1>Welcome to Your React App</h1>
+      <Dropdown />
+    </div>
   );
 }
 

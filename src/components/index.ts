@@ -1,3 +1,3 @@
-import { NameSelector } from './count2';
+import { default  } from './Dropdown';
 
-export default { NameSelector };
+export default { default  };
